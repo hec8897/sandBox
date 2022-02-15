@@ -39,6 +39,11 @@ export default defineComponent({
   props: {
     msg: String,
   },
+  data(){
+    return{
+      test:'1'
+    }
+  }
 });
 </script>
 
